@@ -94,7 +94,7 @@ body {
     color: hsl(0, 36%, 70%);
 }
 
-.error {
+#error {
     width: 3%;
     height: 3%;
 
@@ -128,7 +128,7 @@ body {
     cursor: pointer;
 }
 
-.messageError{
+#messageError{
     margin: 10px 0 30px 25%;
 
     color: hsl(0, 93%, 68%);
@@ -252,7 +252,7 @@ footer a {
         color: hsl(0, 36%, 70%);
     }
     
-    .error {
+    #error {
         width: auto;
         height: auto;
 
@@ -286,11 +286,11 @@ footer a {
         cursor: pointer;
     }
     
-    .messageError{
+    #messageError{
         margin: 10px 0 30px 24%;
     
         color: hsl(0, 93%, 68%);
-    
+
         opacity: 0;
     }
     
@@ -412,14 +412,14 @@ footer a {
         color: hsl(0, 36%, 70%);
     }
     
-    .error {
+    #error {
         width: auto;
         height: auto;
 
         position: relative;
         top: 8px;
         right: 80px;
-        opacity: 100;
+        opacity: 0;
     }
     
     .information button{
@@ -446,12 +446,12 @@ footer a {
         cursor: pointer;
     }
     
-    .messageError{
+    #messageError{
         margin: 10px 0 30px 24%;
     
         color: hsl(0, 93%, 68%);
-    
-        opacity: 100;
+
+        opacity: 0;
     }
     
     .picture img {
@@ -572,14 +572,14 @@ footer a {
         color: hsl(0, 36%, 70%);
     }
     
-    .error {
+    #error {
         width: auto;
         height: auto;
 
         position: relative;
         top: 8px;
         right: 80px;
-        opacity: 100;
+        opacity: 0;
     }
     
     .information button{
@@ -606,12 +606,12 @@ footer a {
         cursor: pointer;
     }
     
-    .messageError{
+    #messageError{
         margin: 10px 0 30px 24%;
     
         color: hsl(0, 93%, 68%);
-    
-        opacity: 100;
+
+        opacity: 0;
     }
     
     .picture img {
@@ -733,14 +733,14 @@ footer a {
         color: hsl(0, 36%, 70%);
     }
     
-    .error {
+    #error {
         width: auto;
         height: auto;
 
         position: relative;
         top: 8px;
         right: 80px;
-        opacity: 100;
+        opacity: 0;
     }
     
     .information button{
@@ -767,12 +767,12 @@ footer a {
         cursor: pointer;
     }
     
-    .messageError{
+    #messageError{
         margin: 10px 0 30px 24%;
     
         color: hsl(0, 93%, 68%);
-    
-        opacity: 100;
+
+        opacity: 0;
     }
     
     .picture img {
@@ -894,14 +894,14 @@ footer a {
         color: hsl(0, 36%, 70%);
     }
     
-    .error {
+    #error {
         width: auto;
         height: auto;
 
         position: relative;
         top: 8px;
         right: 80px;
-        opacity: 100;
+        opacity: 0;
     }
     
     .information button{
@@ -928,12 +928,12 @@ footer a {
         cursor: pointer;
     }
     
-    .messageError{
+    #messageError{
         margin: 10px 0 30px 24%;
     
         color: hsl(0, 93%, 68%);
-    
-        opacity: 100;
+
+        opacity: 0;
     }
     
     .picture img {
@@ -1055,14 +1055,14 @@ footer a {
         color: hsl(0, 36%, 70%);
     }
     
-    .error {
+    #error {
         width: auto;
         height: auto;
 
         position: relative;
         top: 8px;
         right: 80px;
-        opacity: 100;
+        opacity: 0;
     }
     
     .information button{
@@ -1089,12 +1089,12 @@ footer a {
         cursor: pointer;
     }
     
-    .messageError{
+    #messageError{
         margin: 10px 0 30px 33%;
     
         color: hsl(0, 93%, 68%);
     
-        opacity: 100;
+        opacity: 0;
     }
     
     .picture img {
@@ -1214,14 +1214,14 @@ footer a {
         color: hsl(0, 36%, 70%);
     }
     
-    .error {
+    #error {
         width: 3%;
         height: 3%;
     
         position: relative;
         top: 8px;
         right: 80px;
-        opacity: 100;
+        opacity: 0;
     }
     
     .information button{
@@ -1248,12 +1248,12 @@ footer a {
         cursor: pointer;
     }
     
-    .messageError{
+    #messageError{
         margin: 10px 0 30px 25%;
     
         color: hsl(0, 93%, 68%);
-    
-        opacity: 100;
+
+        opacity: 0; 
     }
     
     .picture {

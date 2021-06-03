@@ -47,13 +47,13 @@
           Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
 
-        <form>
+        <form id="form" novalidate>
 
-          <input type="text" id="email" name="emailAddress" placeholder="Email Address"><img src="/images/icon-error.svg" alt="Icon Error" class="error"><button id="submit"><img src="/images/icon-arrow.svg"></button>
+          <input type="email" id="email" name="email" placeholder="Email Address"><img src="/images/icon-error.svg" alt="Icon Error" id="error"><button id="submit" type="submit"><img src="/images/icon-arrow.svg"></button>
         
         </form>
 
-        <p class="messageError">Please provide a valide email</p>
+        <p id="messageError">Please provide a valide email</p>
 
       </div>
 

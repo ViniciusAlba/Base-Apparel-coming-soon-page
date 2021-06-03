@@ -157,8 +157,328 @@ footer a {
     color:hsl(0, 36%, 70%);
 }
 
+@media only screen and (min-width: 360px) and (max-width: 430px) {
+
+    .header {
+        opacity: 100;
+        padding: 50px 0 50px 50px;
+        background: #fff;
+    }
+
+    .main-content {
+        margin: 0;
+    
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "picture"
+        "information";
+    
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .logo {
+        width: 0;
+        height: 0;
+    
+        margin: 0;
+
+        opacity: 0;
+    }
+    
+    .information {
+        width: 100%;
+    
+        background-image: url(/images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+    
+        grid-area: information;
+    }
+    
+    .information span {
+        color: hsl(0, 36%, 70%);
+    
+        display: block;
+    
+        font-weight: 300;
+    }
+    
+    .information h1 {
+        width: 100%;
+    
+        line-height: 70px;
+        font-size: 64px;
+        letter-spacing: 10px;
+        color: hsl(0, 6%, 24%);
+    
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-weight: 600;
+    
+        margin: 100px auto 30px auto;
+    }
+    
+    .welcome-text {
+        width: 100%;
+    
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    
+        margin: 0 auto 30px auto;
+        
+        color: hsl(0, 36%, 70%);
+    }
+    
+    .information input{
+        margin: 0 0 0 10%;
+        width: 50%;
+        height: 33px;
+    
+        border-radius: 30px;
+        border: 1px solid #CCC;
+    
+        padding: 5px 30px;
+    
+        outline: none;
+    
+        color: hsl(0, 36%, 70%);
+    }
+    
+    .information input::placeholder{
+        color: hsl(0, 36%, 70%);
+    }
+    
+    .error {
+        width: auto;
+        height: auto;
+
+        position: relative;
+        top: 8px;
+        right: 80px;
+        opacity: 0;
+    }
+    
+    .information button{
+        background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    
+        width: 16%;
+        height: 45px;
+    
+        border-radius: 30px;
+        border: none;
+    
+        position: relative;
+        bottom: 20px;
+        right: 20%;
+    }
+    
+    .information button:hover{
+        transform:scale(1.1, 1.1);
+        -webkit-transform:scale(1.1, 1.1);
+        -moz-transform:scale(1.1, 1.1);
+    
+        box-shadow: 0px 15px 20px hsl(0, 80%, 86%);
+    
+        cursor: pointer;
+    }
+    
+    .messageError{
+        margin: 10px 0 30px 24%;
+    
+        color: hsl(0, 93%, 68%);
+    
+        opacity: 0;
+    }
+    
+    .picture img {
+        width: 100%;
+    
+        grid-area: picture;
+    }
+    
+    footer {
+        width: 100%;
+        text-align: center;
+    
+        position: relative;
+        margin: 10px auto;
+    }
+    
+    footer a {
+        height: auto;
+    
+        text-decoration: none;
+        color:hsl(0, 36%, 70%);
+    }
+
+}
+
+@media only screen and (min-width: 430px) and (max-width: 599px) {
+
+    .header {
+        opacity: 100;
+        padding: 50px 0 50px 50px;
+        background: #fff;
+    }
+
+    .main-content {
+        margin: 0;
+    
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "picture"
+        "information";
+    
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .logo {
+        width: 0;
+        height: 0;
+    
+        margin: 0;
+
+        opacity: 0;
+    }
+    
+    .information {
+        width: 100%;
+    
+        background-image: url(/images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+    
+        grid-area: information;
+    }
+    
+    .information span {
+        color: hsl(0, 36%, 70%);
+    
+        display: block;
+    
+        font-weight: 300;
+    }
+    
+    .information h1 {
+        width: 100%;
+    
+        line-height: 70px;
+        font-size: 72px;
+        letter-spacing: 20px;
+        color: hsl(0, 6%, 24%);
+    
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-weight: 600;
+    
+        margin: 100px auto 30px auto;
+    }
+    
+    .welcome-text {
+        width: 100%;
+    
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    
+        margin: 0 auto 30px auto;
+        
+        color: hsl(0, 36%, 70%);
+    }
+    
+    .information input{
+        margin: 0 0 0 22%;
+        width: 40.3%;
+        height: 33px;
+    
+        border-radius: 30px;
+        border: 1px solid #CCC;
+    
+        padding: 5px 30px;
+    
+        outline: none;
+    
+        color: hsl(0, 36%, 70%);
+    }
+    
+    .information input::placeholder{
+        color: hsl(0, 36%, 70%);
+    }
+    
+    .error {
+        width: auto;
+        height: auto;
+
+        position: relative;
+        top: 8px;
+        right: 80px;
+        opacity: 0;
+    }
+    
+    .information button{
+        background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    
+        width: 17%;
+        height: 45px;
+    
+        border-radius: 30px;
+        border: none;
+    
+        position: relative;
+        top: 5px;
+        right: 70px;
+    }
+    
+    .information button:hover{
+        transform:scale(1.1, 1.1);
+        -webkit-transform:scale(1.1, 1.1);
+        -moz-transform:scale(1.1, 1.1);
+    
+        box-shadow: 0px 15px 20px hsl(0, 80%, 86%);
+    
+        cursor: pointer;
+    }
+    
+    .messageError{
+        margin: 10px 0 30px 24%;
+    
+        color: hsl(0, 93%, 68%);
+    
+        opacity: 0;
+    }
+    
+    .picture img {
+        width: 100%;
+    
+        grid-area: picture;
+    }
+    
+    footer {
+        width: 100%;
+        text-align: center;
+    
+        position: relative;
+        margin: 10px auto;
+    }
+    
+    footer a {
+        height: auto;
+    
+        text-decoration: none;
+        color:hsl(0, 36%, 70%);
+    }
+
+}
+
 /* Extra small devices (phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
     
     .header {
         opacity: 100;
@@ -319,7 +639,7 @@ footer a {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 
     .header {
         opacity: 100;

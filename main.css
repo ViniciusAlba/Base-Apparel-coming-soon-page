@@ -3,7 +3,11 @@
 }
 
 body {
-    background: white;
+    background: hsl(0, 100%, 98%)
+}
+
+.header {
+    opacity: 0;
 }
 
 .main-content {
@@ -19,12 +23,14 @@ body {
 }
 
 .logo {
-    margin: 50px 0 30px 200px;
+    width: 19.3%;
+    height: 4.1%;
+
+    margin: 50px 0 30px 20%;
 }
 
 .information {
     width: 100%;
-    height: 100hv;
 
     background-image: url(/images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
@@ -41,7 +47,7 @@ body {
 }
 
 .information h1 {
-    width: 250px;
+    width: 45%;
 
     line-height: 70px;
     font-size: 72px;
@@ -53,25 +59,25 @@ body {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 600;
 
-    margin: 100px 0 30px 200px;
+    margin: 100px 0 30px 20%;
 }
 
 .welcome-text {
-    width: 400px;
+    width: 55%;
 
     line-height: 30px;
     text-align: justify;
     font-size: 16px;
     font-weight: 400;
 
-    margin: 0 0 30px 200px;
+    margin: 0 0 30px 20%;
     
     color: hsl(0, 36%, 70%);
 }
 
 .information input{
-    margin: 0 0 0 200px;
-    width: 330px;
+    margin: 0 0 0 20%;
+    width: 40.3%;
     height: 33px;
 
     border-radius: 30px;
@@ -89,6 +95,9 @@ body {
 }
 
 .error {
+    width: 3%;
+    height: 3%;
+
     position: relative;
     top: 8px;
     right: 80px;
@@ -98,7 +107,7 @@ body {
 .information button{
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 
-    width: 80px;
+    width: 10%;
     height: 45px;
 
     border-radius: 30px;
@@ -120,7 +129,7 @@ body {
 }
 
 .messageError{
-    margin: 10px 0 30px 230px;
+    margin: 10px 0 30px 25%;
 
     color: hsl(0, 93%, 68%);
 
@@ -129,7 +138,6 @@ body {
 
 .picture {
     width: 100%;
-    height: 100hv;
 
     grid-area: picture;
 }
@@ -138,10 +146,115 @@ footer {
     text-align: center;
 
     position: relative;
-    margin: auto;
+    margin: 5% auto 3% auto;
 }
 
 footer a {
+    width: 100%;
+    height: auto;
+
     text-decoration: none;
     color:hsl(0, 36%, 70%);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .header {
+        opacity: 100;
+        width: 100%;
+
+        padding: 50px 0 50px 15%;
+
+        background: #fff;
+    }
+
+    .main-content {
+        margin: 0;
+    
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "picture"
+        "information";
+    }
+    
+    .logo {
+        opacity: 0;
+    }
+    
+    .information {
+        width: 100vw;
+    
+        background: hsl(0, 100%, 98%);
+        background-repeat: no-repeat;
+    
+        grid-area: information;
+    }
+
+    .information h1 {
+
+        width: 350px;
+    
+        line-height: 70px;
+        font-size: 72px;
+        letter-spacing: 20px;
+        color: hsl(0, 6%, 24%);
+    
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-weight: 600;
+    
+        margin: 0px 0 30px 20%;
+    }
+
+    .welcome-text {
+        width: 55%;
+    
+        line-height: 30px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    
+        margin: 0 0 30px 20%;
+        
+        color: hsl(0, 36%, 70%);
+    }
+    
+    .picture {
+        width: 100%;
+        height: 100%;
+    
+        grid-area: picture;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
 }
